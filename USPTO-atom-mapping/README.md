@@ -3,6 +3,11 @@
 - 种类：
   - uspto-50k: ～50k 条记录
   - uspto-full: ～1.1M 条记录
+
+## 文件
+    - remmaped_USPTO_50k: ～50k 条包含了原子映射Reaction SMILES的记录
+    - remmaped_USPTO_FUll:～1.1M 条包含了原子映射Reaction SMILES的记录
+
 ## 数据格式
 - **CSV 格式**：UTF-8 编码，逗号分隔。
 - 实例：
