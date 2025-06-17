@@ -5,8 +5,8 @@
   - uspto-full: ～1.1M 条记录
 
 ## 文件
-    - remmaped_USPTO_50k: ～50k 条包含了原子映射Reaction SMILES的记录
-    - remmaped_USPTO_FUll:～1.1M 条包含了原子映射Reaction SMILES的记录
+    - raw_USPTO_50k: ～50k 条包含了原子映射Reaction SMILES的记录
+    - raw_USPTO_FUll:～1.1M 条包含了原子映射Reaction SMILES的记录
 
 ## 数据格式
 - **CSV 格式**：UTF-8 编码，逗号分隔。
@@ -19,4 +19,4 @@
     | 列名            | 描述                                                                |
   |-----------------|----------------------------------------------------------------------|
   | mapped_reaction | 化学反应的 Reaction SMILES 表示，格式为 `reactants>>product`，包含原子映射    |
-  | confidence    | 原子映射的准确性，布尔值             |
+  | confidence    | 原子映射的可信度，布尔值             |
